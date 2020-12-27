@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Page d'accueil | Devise HT</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
@@ -10,9 +11,6 @@
     <meta name="msapplication-TileColor" content="#0048b5" />
     <meta name="msapplication-navbutton-color" content="#0048b5" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#0048b5" />
-    <title>Page d'accueil | Devise HT</title>
-
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/"> -->
 
     <!-- Bootstrap core CSS -->
     <link
@@ -21,6 +19,7 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="custom_carousel.css" />
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
@@ -30,33 +29,12 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#7952b3" />
     <link rel="icon" href="favicon.ico" />
     <meta name="theme-color" content="#7952b3" />
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="pricing.css" rel="stylesheet" />
   </head>
   <body>
     <header
       class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm"
     >
-      <a href="#" class="navbar-brand h5 my-0 me-md-auto fw-normal"
-        >Devise HT</a
-      >
+      <a href="index.html" class="navbar-brand my-0 me-md-auto">Devise HT </a>
       <nav class="my-2 my-md-0 me-md-3">
         <a class="p-2 text-dark" href="faq.html">FAQ</a>
         <a class="p-2 text-dark" href="terms_and_policy.html"
@@ -66,41 +44,43 @@
     </header>
 
     <main class="container">
-      <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">À propos de cette application</h1>
-            <p class="lead text-muted">
-              Devise HT est une application android qui offre un service gratuit
-              qui est d'afficher les taux de change haïtiens actuels qui sont
-              publiés par la Banque de la République d'Haïti ou (BRH).<br /><br />
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            À propos de cette application |
+            <span class="text-muted">Quel est notre but?</span>
+          </h2>
+          <p class="lead">
+            Devise HT est une application android qui offre un service gratuit
+            qui est d'afficher les taux de change haïtiens actuels qui sont
+            publiés par la Banque de la République d'Haïti ou (BRH).<br /><br />
 
-              Cette application n'est pas associée à la Banque de la République
-              d'Haïti ou (BRH), cependant, c'est de là que proviennent les
-              données originales<br /><br />
+            Cette application n'est pas associée à la Banque de la République
+            d'Haïti ou (BRH), cependant, c'est de là que proviennent les données
+            originales<br /><br />
 
-              La Banque de la République d'Haïti ou (BRH), met généralement à
-              jour chaque jour ouvrable, sauf les jours de fermeture cibles.<br /><br />
-              Ils reposent sur une procédure de concertation quotidienne
-              régulière<br />
-              entre toutes les banques à travers Haïti, qui se déroule
-              normalement tous les jours de la semaine.<br />
-            </p>
-            <p>
-              <a
-                href="https://www.facebook.com/Devise-HT-100215505317988/"
-                class="btn btn-primary my-2"
-                >Suivre sur Facebook</a
-              >
-              <a
-                href="https://play.google.com/store/apps/details?id=com.kevincodes.deviseht"
-                class="btn btn-secondary my-2"
-                >Télécharger sur Google Play</a
-              >
-            </p>
-          </div>
+            La Banque de la République d'Haïti ou (BRH), met généralement à jour
+            chaque jour ouvrable, sauf les jours de fermeture cibles.<br /><br />
+            Ils reposent sur une procédure de concertation quotidienne
+            régulière<br />
+            entre toutes les banques à travers Haïti, qui se déroule normalement
+            tous les jours de la semaine.<br />
+          </p>
+          <p>
+            <a
+              href="https://www.facebook.com/Devise-HT-100215505317988/"
+              class="btn btn-primary my-2"
+              >Suivre sur Facebook</a
+            >
+            <a
+              href="https://play.google.com/store/apps/details?id=com.kevincodes.deviseht"
+              class="btn btn-secondary my-2"
+              >Télécharger sur Google Play</a
+            >
+          </p>
         </div>
-      </section>
+      </div>
+
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
